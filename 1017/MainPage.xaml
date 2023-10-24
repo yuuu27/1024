@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="_1017.MainPage"
@@ -27,7 +27,7 @@
                          VerticalOptions="Center">
                 <ImageButton Source="numbers.png"
                      Aspect="AspectFit"
-                     HeightRequest="150"
+                     HeightRequest="120"
                      CommandParameter="Numbers"
                      Clicked="ImageButton_Clicked"/>
                 <Label Text="Numbers"
@@ -44,7 +44,7 @@
                          VerticalOptions="Center">
                 <ImageButton Source="abc.png"
                      Aspect="AspectFit"
-                     HeightRequest="150"
+                     HeightRequest="120"
                      CommandParameter="Letters"
                      Clicked="ImageButton_Clicked"/>
                 <Label Text="Letters"
@@ -60,7 +60,7 @@
                  VerticalOptions="Center">
                 <ImageButton Source="shapes.png"
                     Aspect="AspectFit"
-                    HeightRequest="150"
+                    HeightRequest="120"
                     CommandParameter="Shapes"
                     Clicked="ImageButton_Clicked"/>
                 <Label Text="Shapes"
@@ -76,7 +76,7 @@
                 VerticalOptions="Center">
                 <ImageButton Source="color.png"
                     Aspect="AspectFit"
-                    HeightRequest="150"
+                    HeightRequest="120"
                     CommandParameter="Colors"
                     Clicked="ImageButton_Clicked"/>
                 <Label Text="Colors"
@@ -92,7 +92,7 @@
                 VerticalOptions="Center">
                 <ImageButton Source="fruits.png"
                     Aspect="AspectFit"
-                    HeightRequest="150"
+                    HeightRequest="120"
                     CommandParameter="Fruits"
                     Clicked="ImageButton_Clicked"/>
                 <Label Text="Fruits"
@@ -108,7 +108,7 @@
              VerticalOptions="Center">
                 <ImageButton Source="animal.png"
                        Aspect="AspectFit"
-                       HeightRequest="150"
+                       HeightRequest="120"
                        CommandParameter="Animals"
                        Clicked="ImageButton_Clicked"/>
                 <Label Text="Animals"
